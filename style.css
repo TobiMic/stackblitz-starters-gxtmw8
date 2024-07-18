@@ -1,0 +1,169 @@
+.top {
+  background-color: darkred;
+  padding: 4px;
+  float: left;
+  width: 80%;
+}
+
+.nav-item {
+  font-weight: bold;
+}
+
+.element {
+  background-color: white;
+  float: left;
+  width: 80%;
+}
+
+.footer {
+  padding: 5px;
+  margin: 5px;
+  border: 2px, dashed, grey;
+  float: left;
+  width: 80%;
+  text-align: center;
+  font: grey;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: lightgrey;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+table {
+  width: 50%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+th {
+  background-color: #f4f4f4;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+  background-image: url('https://wallpaper.forfun.com/fetch/c9/c989bf7c2b23bc2212818cfe40114d4a.jpeg'); 
+  
+}
+}
+
+body.dark-mode .top {
+  background-color: #333;
+}
+
+body.dark-mode .element {
+  background-color: #424242;
+}
+
+body.dark-mode .footer {
+  background-color: #333;
+  color: #ffffff;
+}
+
+body.dark-mode table {
+  color: #ffffff;
+}
+
+body.dark-mode th {
+  background-color: #555;
+}
+
+
+body.easy-reading-mode {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+body.easy-reading-mode table {
+  width: 100%;
+}
+
+body.easy-reading-mode th,
+body.easy-reading-mode td {
+  padding: 15px;
+  border: 2px solid #ccc;
+}
+
+
+.faq-section {
+  margin-top: 20px;
+  float: left;
+  width: 80%;
+}
+
+.faq-section details {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f8f8f8; 
+  padding: 10px; 
+  
+}
+
+.faq-section summary {
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.faq-section .faq-content {
+  padding: 10px; 
+}
+
+.mode-buttons button {
+  margin: 0 100px; 
+  color: white; 
+  background-color: darkred;
+
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+body.dark-mode .navbar {
+  background-color: #333 !important;
+ 
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    display: block;
+  }
+  nav ul li {
+    display: block;
+    margin-right: 0;
+  }
+}
+
+
+body.dark-mode .faq-section details {
+  background-color: #333; 
+
+body.dark-mode .faq-section summary {
+  color: #ffffff; 
+
+body.dark-mode .faq-section .faq-content {
+  color: #ffffff; 
